@@ -1,0 +1,102 @@
+ *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://assets.wallpapersin4k.org/uploads/2017/04/Restaurant-HD-Wallpaper-5.jpeg);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: rgb(19, 197, 63);
+    width: 220px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    background-color: white;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.food-1{
+    background-image: url('https://kulinerkota.com/wp-content/uploads/2021/03/combro-khas-purwokerto.jpg')
+}
+
+.food-2{
+    background-image: url('https://mesinparutkelapa.id/wp-content/uploads/2019/01/botok-e1548066139582.jpg')
+}
+
+.food-3{
+    background-image: url('https://www.befren.com/wp-content/uploads/2019/10/Resep-Membuat-Mie-Aceh-befren.com_.jpg')
+}
+
+.food-4{
+    background-image: url('https://bisnisukm.com/uploads/2018/08/bika-ambon-bukan-berasal-dari-ambon-ini-cerita-lengkapnya-min.jpg')
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: white;
+    color: rgba(255, 0, 0, 0.938);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 30px;   
+}
+
+.card:hover{
+    background-color: rgb(8, 252, 102);
+    color: ivory;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    height: 60px;
+}
+
+nav.logo{
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:white;
+}
